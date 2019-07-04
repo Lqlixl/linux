@@ -1,48 +1,56 @@
 ### Architecture
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/Architecture
+- [架构实验1](https://github.com/Lqlixl/linux/blob/master/Basic/Architecture/%E6%9E%B6%E6%9E%84%E5%AE%9E%E9%AA%8C1.md)
 
 ### Script
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/Script
+- [知识点](https://github.com/Lqlixl/linux/blob/master/Basic/Script/shell%E8%84%9A%E6%9C%AC.md)
 
 ### Clutter
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/Clutter
+- [装系统](https://github.com/Lqlixl/linux/blob/master/Basic/Clutter/%E8%A3%85%E6%9C%BA.md)
 
 ### nginx
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/nginx
+- [知识点](https://github.com/Lqlixl/linux/blob/master/Basic/nginx/Nginx.md)
+- [实验](https://github.com/Lqlixl/linux/blob/master/Basic/nginx/Nginxepm.md)
 
 ### haproxy
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/haproxy
+- [知识点](https://github.com/Lqlixl/linux/blob/master/Basic/haproxy/haproxy.md)
 
 ### keepalived
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/keepalived
+- [知识点](https://github.com/Lqlixl/linux/blob/master/Basic/keepalived/keepalive.md)
+- [知识点2](https://github.com/Lqlixl/linux/blob/master/Basic/keepalived/Keepalived%E6%97%AD.md)
 
 ### redis
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/redis
+- [知识点](https://github.com/Lqlixl/linux/blob/master/Basic/redis/redis.md)
+- [实验](https://github.com/Lqlixl/linux/blob/master/Basic/redis/redisexperiment.md)
+- [RDB和AOF](https://github.com/Lqlixl/linux/blob/master/Basic/redis/redis%20%E6%8C%81%E4%B9%85%E5%8C%96%E4%B9%8BRDB%E5%92%8CAOF.md)
 
 ### kvm
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/kvm
+- [KVM](https://github.com/Lqlixl/linux/blob/master/Basic/kvm/KVM.md)
 
 ### openstack 
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/openstack
+- [搭建环境](https://github.com/Lqlixl/linux/blob/master/Basic/openstack/openstack1.md)
+- [keystone](https://github.com/Lqlixl/linux/blob/master/Basic/openstack/openstackkeystone.md)
+- [nova](https://github.com/Lqlixl/linux/blob/master/Basic/openstack/openstacknova4.md)
+- [glance](https://github.com/Lqlixl/linux/blob/master/Basic/openstack/openstack3%E9%95%9C%E5%83%8F.md)
+- [neutron]()
 
 ### openvpn
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/openvpn
+- [搭建](https://github.com/Lqlixl/linux/blob/master/Basic/openvpn/openvpn.md)
 
 ### tomcat
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/tomcat
+- [知识点](https://github.com/Lqlixl/linux/blob/master/Basic/tomcat/tomcat.md)
 
 ### docker
 
-- https://github.com/Lqlixl/linux/tree/master/Basic/docker
+- [知识点]()
 
