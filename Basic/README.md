@@ -54,3 +54,8 @@
 
 - [知识点]()
 
+### zabbix
+
+- [zabbix安装](https://github.com/Lqlixl/linux/blob/master/Basic/zabbix/zabbix.md)
+- [zabbix实验](https://github.com/Lqlixl/linux/blob/master/Basic/zabbix/zabbixsy.md)
+
