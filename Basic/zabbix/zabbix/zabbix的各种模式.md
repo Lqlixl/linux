@@ -1,0 +1,10 @@
+# zabbix的各种模式
+zabbix的主动和被动模式是针对agent来说的
+## 主动模式
+主动模式就是当zabbix-agent起来后，zabbix-agent会向zabbix-server发起获取监控的请求，得到监控项后在本地采集数据，并按照监控项中定义的时间，定期向server端发送数据，agent的10050端口会向server端的10051发送数据，主动模式的好处时无需发起众多连接和agent通信，只需要接收数据，缺点是需要和agent建立众多的连接。
+
+## 被动模式
+在被动模式下，zabbix-server向zabbix-agent发起获取数据请求、agent在本地收集数据后发送给server，缺点是在大批量的主机的环境下回造成数据的延迟。zabbix-server端的10051端口回向agent端的10050端口发送数据。
+
+## proxy模式
+zabbix的proxy模式是由proxy来收集各种数据，然后将数据发送给后端的zabbix-server，这样的好处是zabbix-server无需再建立起众多的tcp连接，使用zabbix的proxy模式时一般采用主动模式的proxy，被动模式的proxy收集数据的速度太慢一般不使用。
