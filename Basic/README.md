@@ -1,6 +1,6 @@
 ### Architecture
 
-- [架构实验1](https://github.com/Lqlixl/linux/blob/master/Basic/Architecture/%E6%9E%B6%E6%9E%84%E5%AE%9E%E9%AA%8C1.md)
+- [架构1](https://github.com/Lqlixl/linux/blob/master/Basic/Architecture/%E6%9E%B6%E6%9E%84%E5%AE%9E%E9%AA%8C1.md)
 
 ### Script
 
