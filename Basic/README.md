@@ -46,6 +46,9 @@
 
 - [搭建](https://github.com/Lqlixl/linux/blob/master/Basic/openvpn/openvpn.md)
 
+### Jenkins
+- [githook]()
+
 ### tomcat
 
 - [知识点](https://github.com/Lqlixl/linux/blob/master/Basic/tomcat/tomcat.md)
