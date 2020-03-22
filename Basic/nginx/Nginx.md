@@ -169,14 +169,17 @@ WantedBy=multi-user.target
 > systemctl start nginx 启动服务   
 > systemctl stop nginx 关闭服务    
 > systemctl reload nginx 重新加载  
-- 可以通过进程启动时间来判断重新加载成功没有，其中主进程时间没有变化，**工作进程发生变化**。  
-- 将/apps/nginx/sbin/nginx 设置为软连接到/usr/sbin/下  
+>
+> - 可以通过进程启动时间来判断重新加载成功没有，其中主进程时间没有变化，**工作进程发生变化**。  
+> - 将/apps/nginx/sbin/nginx 设置为软连接到/usr/sbin/下  
 > ln -sv /apps/nginx/sbin/nginx /usr/sbin/  
 > nginx -t 可以通过缩写开启关闭或者重新加载启动脚本  
 > nginx -s reload 重新加载nginx  
-10. 在nginx集群里面所有的文件里面nginx用户必须是同一个用户，并且用户的Pid和Uid都要相同，要是不同就删除重新创建用户；  
-- 实例：在生产环境当中，一个集群里面两台nginx使用的用户不同（a和b），一个人上传几张图片到blog网站上去，第一张走的a服务，第二张走的b服务，上传到网站后，别人访问只能访问其中一个服务上传的图片，因为不同图片所属主可能不一样。  
-- 用户nginx的nginx不一样  
+> 10. 在nginx集群里面所有的文件里面nginx用户必须是同一个用户，并且用户的Pid和Uid都要相同，要是不同就删除重新创建用户；  
+> - 实例：在生产环境当中，一个集群里面两台nginx使用的用户不同（a和b），一个人上传几张图片到blog网站上去，第一张走的a服务，第二张走的b服务，上传到网站后，别人访问只能访问其中一个服务上传的图片，因为不同图片所属主可能不一样。  
+> - 用户nginx的nginx不一样  
+>
+> r&zEKom*32lF7k3m
 ```bash 
 systemctl stop nginx   #先停止服务
 userdel -rf nginx   #强制删除用户  
