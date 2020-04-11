@@ -4,7 +4,7 @@
 
 - 安装的confluence的机子,服务器CPU达到100%，服务器进行排查，top发现有不知名进程占用大量CPU，出现很多乱码的进程。kill 进程后，隔了几分钟CPU再次飙高。
 
-
+![https://raw.githubusercontent.com/Lqlixl/linux/master/Basic/Picture/Littery/conference%E6%8C%96%E7%9F%BF1.png](https://raw.githubusercontent.com/Lqlixl/linux/master/Basic/Picture/Littery/conference挖矿1.png)
 
 ### 二、解决办法
 
